@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+    <link rel="stylesheet" href="../css/base.css">
+</head>
+<body>
+    <div class="container markdown-body">
+        <div class="tabnav">
+          <nav class="tabnav-tabs">
+            <a href="../fms/" class="tabnav-tab"  class="tooltipped tooltipped-n" >控制台</a>
+          </nav>
+        </div>
+        <p>
+            fms 会根据 
+            <pre>
+$.run({
+    html: ['/html/']
+})</pre>
+中的 <code>html</code> 参数读取指定目录下的所有 html/htm 文件，并显示在 <a href="..//" >控制台</a> 的 Pages 板块
+        </p>
+    </div>
+    <script src="/fms/?type=fms.js"></script>
+    <script>
+fms.btn('控制 ajax /demo/ 失败', function () {
+    fms.res('/demo/:ajax:get:error')
+})
+    </script>
+<style>
+</style>
+</body>
+</html>
