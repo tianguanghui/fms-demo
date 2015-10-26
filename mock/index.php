@@ -1,4 +1,7 @@
 <?php
+/*
+    PHP 接受 FMS 的 POST 请求渲染页面
+*/
     date_default_timezone_set("Shanghai/Asia");
     function __object_array ($array) {
         if(is_object($array)) {  
