@@ -25,7 +25,13 @@ $(function () {
                 id: $('#userid').val()
             }
         }).done(function (data) {
-            $('#pre').html('Name is ' + data.name)
+            if (data.status === 'success') {
+                $('#pre').html('Name is ' + data.name)
+            }
+            else {
+                $('#pre').html('Error: ' + data.msg)
+            }
+            
         })
     })
 })
