@@ -1,4 +1,4 @@
-# [fms](http://fms.help/)-demo
+# [fms](http://fmsjs.org/)-demo
 
 Front Mock Server | 前端数据模拟服务器
 
