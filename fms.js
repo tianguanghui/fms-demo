@@ -154,7 +154,7 @@ fms.view({
 
 fms.ajax({
     title: "用户登录",
-    type: 'get',
+    type: 'post',
     url: '/login/',
     request: {
         username: "nimo",
