@@ -168,7 +168,7 @@ fms.view({
     title: '新闻列表',
     type: 'get',
     url: '/news/',
-    template: 'new.php',
+    template: 'news.php',
     data: {
         list: [
             {
