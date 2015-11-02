@@ -39,5 +39,5 @@ nodemon -w fms.js fms.js
 
 若希望打开后端渲染脚本端口请在项目根目录运行
 ```shell
-php -S 127.0.0.1:1234 -t mock/
+php -S 127.0.0.1:1234 -t mock
 ```
