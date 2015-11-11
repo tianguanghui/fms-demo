@@ -70,25 +70,25 @@ fms.btn('警告','warning', function () {
 fms.hr()
 
 fms.btn('控制 /get_user/ 成功', 'success', function () {
-    fms.res('/get_user/`ajax`get:ok')
+    fms.res('/get_user/`ajax`get`ok')
 })
 
 fms.btn('控制 /get_user/ 失败', 'danger', function () {
-    fms.res('/get_user/`ajax`get:err')
+    fms.res('/get_user/`ajax`get`err')
 })
 
 fms.hr()
 
 fms.btn('登录成功','success', function ($) {
 
-    fms.res('/login/:ajax:post:ok')
+    fms.res('/login/`ajax`post`ok')
 
     $('[name=username]').val('nimo')
     $('[name=password]').val('12345')
     $('button[type=submit]').trigger('click')
 })
 fms.btn('登录失败','danger', function () {
-    fms.res('/login/:ajax:post:err')
+    fms.res('/login/`ajax`post`err')
 
     $('[name=username]').val('fms')
     $('[name=password]').val('12345')

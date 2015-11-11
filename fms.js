@@ -99,6 +99,39 @@ fms.ajax({
     }
 })
 
+fms.ajax({
+    title: "RESTful API",
+    type: 'get',
+    url: '/user/:id',
+    res: {
+        ok: {
+            status: "success",
+            msg: "GET success"
+        },
+        fn: function (req, res) {
+            res.send(req.params['id'])
+        }
+    }
+})
+
+
+fms.ajax({
+    title: "RESTful API",
+    type: 'post',
+    url: '/user/:id',
+    res: {
+        ok: {
+            status: "success",
+            msg: "POST success"
+        },
+        err: {
+            status: "error",
+            msg: "POST error"
+        }
+    }
+})
+
+
 // 根据 fms 中的配置生成文档到 /doc/front-mock-data.html
 fms.docFile('./doc/front-mock-data.html')
 
