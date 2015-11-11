@@ -1,8 +1,8 @@
-# [fms](http://fms.help/)-demo
+# [fms](http://fmsjs.org/)-demo
 
 Front Mock Server | 前端数据模拟服务器
 
-> 在线预览 [demo.fms.help](http://demo.fms.help/)
+> 在线预览 [demo.fmsjs.org](http://demo.fmsjs.org/)
 
 [下载代码](https://github.com/nimojs/fms-demo/archive/master.zip)
 
