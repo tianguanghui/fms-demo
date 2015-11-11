@@ -67,6 +67,7 @@ fms.ajax({
     dataType: 'jsonp',
     res: {
         ok: {
+            status: "success",
             name: 'fms'
         }
     }
