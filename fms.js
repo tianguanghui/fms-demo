@@ -198,6 +198,7 @@ fms.ajax({
     }
 })
 
+
 fms.view({
     title: '新闻列表',
     type: 'get',
@@ -226,3 +227,18 @@ fms.view({
         ]
     }
 })
+
+// 支持链式调用
+fms.get('/fms.get/', {title: "链式调用"}).ok({
+    msg: "ok"
+}).err({
+    meg: "err"
+})
+/*
+//  第二个参数可以省略
+    fms.get('/fms.get/').ok({
+        msg: "ok"
+    }).err({
+        meg: "err"
+    })
+*/
