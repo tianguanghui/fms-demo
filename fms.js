@@ -149,6 +149,11 @@ fms.doc(function () {/*
 ```
 */})
 
+fms.doc({
+    name: "fms",
+    _name: "向 fms.doc() 允许传入对象"
+})
+
 fms.doc('---')
 
 /*
