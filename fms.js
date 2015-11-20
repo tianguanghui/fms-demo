@@ -16,7 +16,7 @@ fms.run({
                 type: "free"
             }
         },
-        request: function (req, data) {
+        filter: function (req, data) {
             // 不允许重写 data ：
             // 错误： data = {}
             data.PAGE_PATH = req.path // req.path === location.pathname
